@@ -10,7 +10,7 @@ body{
 
 main > section > article > iframe{
     display: block;
-    margin: 5px auto;
+    margin: 20px auto;
 }
 
 img{
@@ -19,12 +19,12 @@ img{
     margin: 5px auto;
 }
 
-h4{
-    font-size: 1em;
+main > section > article > h3{
+    font-size: 3ex;
     margin: 10px 5px;
     text-align: center;
 }
 
-h3{
-    font-size: 3ex;
+main > section > h2{
+    width: 400px;
 }
