@@ -4,8 +4,10 @@ body{
     background-image: url("../kafkaimages/1691019310013.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: fixed;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    min-height: 100%;
 }
 
 main > section > article > iframe{
@@ -17,6 +19,7 @@ img{
     display: block;
     margin: 5px auto;
     padding: 0px;
+    width: 62%;
 }
 
 main > section > article > h3{

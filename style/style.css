@@ -63,10 +63,12 @@ header > nav > a:focus{
 main{
     background-color: var(--backheadermain);
     padding: 10px;
-    margin: 0px 2% 400px 2%;
+    margin: 0px auto 400px auto;
     height: auto;
     font-weight: bold;
     color: black;
+    max-width: 1000px;
+    min-width: 320px;
 }
 
 main > section{
