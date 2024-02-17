@@ -27,35 +27,39 @@ body{
 header{
     background-color: var(--backheadermain);
     color: white;
-    margin: 0px auto 10px auto;
+    min-height: 50px;
+    max-height: 150px;
+    margin: 0px auto 0px auto;
     padding: 5px;
-    box-shadow: 0px 1px 7px 2px var(--black-shadow);
 }
 
 header > h1{
     font-family: var(--fonte-h1);
 }
 
-header > nav{
-    background-color: var(--gray-nav);
-    margin: 2px;
-    padding: 5px;
+nav{
+    background-color: var(--backheadermain);
+    margin-top: 0px;
+    margin: 0px;
+    padding: 10px;
     box-shadow: 0px 2px 7px 2px var(--black-shadow);
+    max-width: auto;
+    min-width: 510px;
 }
 
-header > nav > a{
+nav > a{
     text-decoration: none;
     font-weight: bold;
     color: white;
-    margin: 10px
+    margin: 5px 10px;
 }
 
-header > nav > a:hover{
+nav > a:hover{
     color: black;
     background-color: var(--backnavhover);
 }
 
-header > nav > a:focus{
+nav > a:focus{
     color: black;
     background-color: var(--backnavhover);
 }
@@ -63,7 +67,7 @@ header > nav > a:focus{
 main{
     background-color: var(--backheadermain);
     padding: 10px;
-    margin: 0px auto 400px auto;
+    margin: 0px auto 10px auto;
     height: auto;
     font-weight: bold;
     color: black;
@@ -80,10 +84,17 @@ main > section{
 main > section > h2{
     background-color: var(--backh2);
     color: white;
-    width: 300px;
+    max-width: 450px;
+    min-width: 100px;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    
+}
+
+main > section > article > p{
+    text-indent: 30px;
+    line-height: 2em;
 }
 
 main > section > article > p > a{
@@ -99,9 +110,7 @@ main > section > article > div{
     background-color: white;
     border: 1px solid black;
     padding: 10px 5px;
-    margin: 10px;
-    height: 19%;
-    width: 29%;
+    margin: 5px;
     display: inline-block;
     position: relative;
     left: 17%;
@@ -111,11 +120,27 @@ main > section > article > div{
 main > section > article > div#center{
     position: relative;
     display: inline-block;
-    left: 34%;
+    margin: 10px auto;
+    left: 280px;
+    max-height: 500px;
+    max-width: 400px;
 }
 
-li#invisible{
+li.invisible{
     visibility: hidden;
+}
+
+div.height{
+    max-height: 500px;
+    max-width: 300px;
+}
+
+div#margin{
+    margin-top: -35px;
+}
+
+ol{
+    columns: 2;
 }
 
 div > h3{
@@ -135,9 +160,10 @@ footer{
     background-color: black;
     color: white;
     font-weight: bold;
-    margin: 400px auto auto auto;
+    margin: 10px auto auto auto;
     padding: 0px auto;
-    width: 400px;
+    max-width: 1000px;
+    min-width: 320px;
     text-align: center;
 }
 
