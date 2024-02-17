@@ -8,3 +8,5 @@ Este site visa auxiliar e informar aos jogadores de Honkai: Star Rail, da empres
 - Planetas e Lugares - (referente aos mapas e pisos presentes no jogo);
 - Inimigos e Bosses - (detalhar, explicar e mostrar os inimigos e como combatêlos no jogo e personagens ideais contra eles);
 - Personagens - (exclusivamente para explicar detalhes dos personagens como história, times a ser formados, modos de jogo do personagem, algumas informações tragas de jogo e trailers).
+
+De antemão, a página ainda está em construção e sendo como meio de estudo para poder melhorar no desenvolvimento de páginas WEB front-end.
